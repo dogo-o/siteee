@@ -54,16 +54,19 @@ button {
     width: 400px;
     height: 40px;
     margin-top: 17px;
-
     display: flex;
     align-items: center;
     justify-content: center;
-
     transition: transform .2s
 }
 
 button:hover{
+    cursor: pointer;
     background-color: rgba(134, 224, 0, 0.856);
     transform: scale(1.1)
+}
+
+a:link, a:visited {
+    text-decoration: none
 }
 
