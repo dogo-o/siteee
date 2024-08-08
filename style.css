@@ -70,3 +70,9 @@ a:link, a:visited {
     text-decoration: none
 }
 
+@media(max-width: 600px) {
+    .head img { width: 400px;
+
+    }
+}
+
